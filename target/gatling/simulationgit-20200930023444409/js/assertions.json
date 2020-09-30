@@ -1,0 +1,10 @@
+{
+  "simulation": "test.scala.simulations.SimulationGit",
+  "simulationId": "simulationgit",
+  "start": 1601433284409,
+  "description": "",
+  "scenarios": ["Account Load Simulation"],
+  "assertions": [
+
+  ]
+}
