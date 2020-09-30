@@ -29,7 +29,7 @@ class SimulationGit extends Simulation{
     )
   }
 
-  val scn = scenario("Account Load Simulation").repeat(loop){
+  val scn = scenario("Get commit").repeat(loop){
     exec(getCommitsOne()).pause(pause)
       .exec(getCommitsTwo()).pause(pause)
   }
